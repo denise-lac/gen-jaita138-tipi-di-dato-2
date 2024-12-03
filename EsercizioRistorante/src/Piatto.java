@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
-public class App {
+public class Piatto {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Inserisci gli attributi del piatto:");
-
-        //insert degli attributi
+        //insert dei dati dell'utente
         System.out.println("Inserisci il nome:");                   //nome
         String nome = sc.nextLine();
         
@@ -21,7 +19,7 @@ public class App {
         boolean disponibile= sc.nextBoolean();
         
 
-        System.out.println("Inserisci la tipologia:");             //tipologia
+        System.out.println("Inserisci la tipologia:");              //tipologia
         byte tipologia= sc.nextByte();
         sc.nextLine();
         
@@ -36,12 +34,13 @@ public class App {
 
         System.out.println("Inserisci le calorie contenute:");      //calorie 
         short calorie= sc.nextShort();
+        sc.nextLine();
         
 
         System.out.println("Inserisci le possibili variazioni:");   //variazioni
         String variazioni = sc.nextLine();
         
-        //stampa a video degli attributi scritti dall'utente
+        //stampa a video dei dati inseriti dall'utente
         System.out.println("Il nome del piatto è: "+nome);
 
         System.out.println("La descrizione del piatto è: "+descrizione);
