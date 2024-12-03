@@ -35,7 +35,7 @@ public class Ingredienti {
         System.out.println("Inserisci le modalità di conservazione:");      //conservazione 
         String conservazione= sc.nextLine();
         
-        
+        System.out.println("---------------------------------------------");
         //stampa a video dei dati inseriti dall'utente
         System.out.println("Il nome dell'ingrediente è: "+nome);
 

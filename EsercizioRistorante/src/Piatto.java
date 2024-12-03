@@ -40,6 +40,7 @@ public class Piatto {
         System.out.println("Inserisci le possibili variazioni:");   //variazioni
         String variazioni = sc.nextLine();
         
+        System.out.println("---------------------------------------------");
         //stampa a video dei dati inseriti dall'utente
         System.out.println("Il nome del piatto è: "+nome);
 
